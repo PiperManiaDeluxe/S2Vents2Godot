@@ -1,10 +1,10 @@
 [gd_scene load_steps=8 format=3 uid="uid://sgafrf4fpt7a"]
 
-[ext_resource type="Shader" path="res://addons/ventsimportersharp/Resources/WireframePulse.gdshader" id="1_ov21w"]
+[ext_resource type="Shader" path="res://addons/S2Vents2Godot/Resources/WireframePulse.gdshader" id="1_8glwk"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_thid7"]
 render_priority = 0
-shader = ExtResource("1_ov21w")
+shader = ExtResource("1_8glwk")
 shader_parameter/outline_width = 3.0
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_42oy1"]
@@ -14,7 +14,7 @@ rings = 2
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_xsggx"]
 render_priority = 0
-shader = ExtResource("1_ov21w")
+shader = ExtResource("1_8glwk")
 shader_parameter/outline_width = 3.0
 
 [sub_resource type="BoxMesh" id="BoxMesh_dmbhr"]
@@ -22,7 +22,7 @@ material = SubResource("ShaderMaterial_xsggx")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_1al3n"]
 render_priority = 0
-shader = ExtResource("1_ov21w")
+shader = ExtResource("1_8glwk")
 shader_parameter/outline_width = 3.0
 
 [sub_resource type="CylinderMesh" id="CylinderMesh_bd1ck"]
