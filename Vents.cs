@@ -8,7 +8,7 @@ public partial class Vents : EditorPlugin
 
     public override void _EnterTree()
     {
-        var script = GD.Load<Script>("res://addons/ventsimportersharp/VentsImporter.cs");
+        Script script = GD.Load<Script>("res://addons/S2Vents2Godot/VentsImporter.cs");
         _ventsImporterPlugin = new VentsImporter();
         _ventsImporterPlugin.SafelySetScript<Script>(script);
         
