@@ -68,7 +68,7 @@ public partial class VentsImporter : EditorImportPlugin
                 Dictionary playerStartPathOption = new()
                 {
                     { "name", "Player start resource path" },
-                    { "default_value", "res://addons/ventsimportersharp/Resources/info_player_start.tscn" }
+                    { "default_value", "res://addons/S2Vents2Godot/Resources/info_player_start.tscn" }
                 };
                 Dictionary lightStrengthMultiplierOption = new()
                 {
